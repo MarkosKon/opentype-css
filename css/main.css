@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0 var(--rhythm);
+}
+:root {
+  background-color: antiquewhite;
+  font-family: "Spectral", serif;
+  font-size: 18px;
+  line-height: 1.4;
+  --rhythm: calc(18px * 1.4);
+  --heading-color: #311c01;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, calc(var(--rhythm) * 22)) 1fr;
+}
+main * {
+  grid-column: 2 / 3;
+}
+h1,
+h2 {
+  line-height: 1.1;
+  margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
+}
+h1 {
+  font-size: 3.157em;
+}
+h2 {
+  font-size: 2.369em;
+}
+p {
+  margin: 0 0 var(--rhythm);
+}
+.intro {
+  font-size: 1.333em;
+  font-style: italic;
+}
+h1,
+h2,
+.intro {
+  color: var(--heading-color);
+}
+#table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  grid-column: 1 / 4;
+}
+table {
+  font-size: 16px;
+  margin: 0 0 var(--rhythm);
+  border-collapse: collapse;
+  border: 2px solid #544c41;
+}
+tbody {
+  vertical-align: middle;
+}
+td,
+th {
+  padding: calc(var(--rhythm) / 4) calc(var(--rhythm) / 2);
+  border: 1px solid #544c41;
+}
+td {
+  text-align: center;
+}
+th {
+  background-color: #ecdbc5;
+  line-height: 1.2;
+}
+caption {
+  padding: calc(var(--rhythm) / 4) calc(var(--rhythm) / 2);
+}

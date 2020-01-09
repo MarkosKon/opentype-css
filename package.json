@@ -1,0 +1,15 @@
+{
+  "name": "opentype-css-example",
+  "private": true,
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "live-server",
+    "format": "prettier --write \"**/*.{js,jsx,json,md,css}\""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "prettier": "^1.18.2"
+  }
+}

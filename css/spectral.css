@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Spectral";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Spectral-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Spectral";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/Spectral-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Spectral";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Spectral-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Spectral";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/Spectral-BoldItalic.ttf") format("truetype");
+}
