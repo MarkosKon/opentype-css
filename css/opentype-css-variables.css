@@ -118,19 +118,23 @@ td {
     font-variant-numeric: diagonal-fractions;
   }
 }
+sub,
 .subscript {
   --subs: "subs" on;
 }
 @supports (font-variant-position: sub) {
+  sub,
   .subscript {
     /* --subs: "___"; */
     font-variant-position: sub;
   }
 }
+sup,
 .superscript {
   --sups: "sups" on;
 }
 @supports (font-variant-position: super) {
+  sup,
   .superscript {
     /* --sups: "___"; */
     font-variant-position: super;
